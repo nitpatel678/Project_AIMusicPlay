@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+#sitename{
+    font-family: "Poppins";
+}
+
+#subheading{
+    font-family: "exo";
+}
+
+#option{
+    font-family: "Nunito";
+}
