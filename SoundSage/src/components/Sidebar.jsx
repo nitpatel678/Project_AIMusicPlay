@@ -43,19 +43,19 @@ export default function Sidebar() {
         <ul className="space-y-6">
           <li className="flex items-center text-[#8B96B9] hover:text-cyan-500 cursor-pointer">
             <i
-              className={`fa-solid fa-magnifying-glass mr-3 ${isCollapsed ? "text-2xl" : "text-xl"}`}
+              className={`fa-solid fa-magnifying-glass mr-3 ${isCollapsed ? "text-xl" : "text-xl"}`}
             ></i>
             <span id="option" className={`${isCollapsed ? "hidden" : ""}`}>Discover</span>
           </li>
           <li className="flex items-center text-[#8B96B9] hover:text-cyan-500 cursor-pointer">
             <i
-              className={`fa-solid fa-chart-line mr-3 ${isCollapsed ? "text-2xl" : "text-xl"}`}
+              className={`fa-solid fa-chart-line mr-3 ${isCollapsed ? "text-xl" : "text-xl"}`}
             ></i>
             <span id="option" className={`${isCollapsed ? "hidden" : ""}`}>Top Charts</span>
           </li>
           <li className="flex items-center text-[#8B96B9] hover:text-cyan-500 cursor-pointer">
             <i
-              className={`fa-solid fa-microphone mr-3 ${isCollapsed ? "text-2xl" : "text-xl"}`}
+              className={`fa-solid fa-microphone mr-3 ${isCollapsed ? "text-xl" : "text-xl"}`}
             ></i>
             <span id="option" className={`${isCollapsed ? "hidden" : ""}`}>Artist</span>
           </li>
@@ -69,7 +69,7 @@ export default function Sidebar() {
         <ul className="space-y-6">
           <li className="flex items-center text-[#8B96B9] hover:text-cyan-500 cursor-pointer">
             <i
-              className={`fa-solid fa-heart mr-3 ${isCollapsed ? "text-2xl" : "text-xl"}`}
+              className={`fa-solid fa-heart mr-3 ${isCollapsed ? "text-xl" : "text-xl"}`}
             ></i>
             <span id="option" className={`${isCollapsed ? "hidden" : ""}`}>Favourite</span>
           </li>
@@ -79,7 +79,7 @@ export default function Sidebar() {
       <div className={`mt-auto`}>
         <div className="flex items-center p-3 bg-[#252B43] rounded-lg">
           <i
-            className={`fa-solid fa-user text-gray-400 mr-3 cursor-pointer hover:text-cyan-500 ${isCollapsed ? "text-2xl" : "text-xl"}`}
+            className={`fa-solid fa-user text-gray-400 mr-3 cursor-pointer hover:text-cyan-500 ${isCollapsed ? "text-xl" : "text-xl"}`}
           ></i>
           <div
             id="sitename"
